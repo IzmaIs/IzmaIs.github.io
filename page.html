@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Оставить заявку</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery.maskedinput.min.js"></script>
+</head>
+<body>
+	<div class="full_site">
+		<div class="ts"><h1 id="zag">Оставить заявку на консультанцию</h1></div>
+			<div class="forma_opis">
+				<p>Призыв уже на днях?<br>
+				Не знаете, что делать и к кому обратиться со своей проблемой?<br>
+				Нужен верный и законный вариант получения военного билета?<br>
+				Закажи обратный звонок! Наш специалист перезвонит и ответит на все твои вопросы бесплатно.<br>
+				
+				</p>				
+			</div>
+			<div class="Fio_knopki">
+				<p>Оставить заявку на бесплатную консультанцию</p>
+				<form>
+					<input type="text" name="name" required placeholder="Введите имя"><br>
+					<input type="text" id="phone" required placeholder="+7 (___) ___-__-__"><br>
+					<script>
+						$(function(){
+  							$("#phone").mask("+7 (999) 999-99-99");
+						});
+					</script>
+					<input class="submit" type="submit" name="otprawka" value="Отправить бесплатно">
+				</form>
+			</div>
+	</div>
+</body>
+</html>
