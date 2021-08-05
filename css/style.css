@@ -1,0 +1,71 @@
+body{
+	background-image: url("../img/1.png");
+	font-family: Pompadur;
+	margin-left: 0;
+	margin-right: 0;
+}
+@font-face {
+	font-family: Pompadur;
+	src: url(../font/1.ttf);
+}
+
+.full_site {
+	text-align: center;
+	margin-top: 5%;
+}
+.ts {
+	color: black;
+	background-color: #01BA61;
+	width: 100%;
+}
+
+.forma_opis {
+	background: #01BA61;
+	width: 25%;
+	height: 25%;
+	margin: 3% auto 0 auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-radius: 20px;
+	color: black;
+	font-size: 20px;
+	border-bottom: 3px solid black;
+}
+p {
+	margin-top: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.Fio_knopki {
+	background: #01BA61;
+	width: 25%;
+	height: 25%;
+	margin: 2% auto 0 auto;
+	text-align: center;
+	padding-top: 1%;
+	font-size: 20px;
+	border-radius: 30px;
+	border-bottom: 3px solid black;
+}
+input[type="text"], input[type="tel"]{
+	width: 200px;
+	height: 35px;
+	font-size: 15px;
+	margin-bottom: 25px;
+	border-radius: 20px;
+	border: none;
+	text-align: center;
+}
+.submit{
+	padding: 13px 30px;
+	margin: 5px 0 20px 0;
+	font-size: 15px;
+	background-color: #FF8F01;
+	border: none;
+	border-radius: 30px;
+	border-bottom: 2px solid black;
+}
+.submit:hover{
+	transition: all 0.5s;
+	background: #BF8031;
+}
