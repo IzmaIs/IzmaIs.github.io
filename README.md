@@ -1,3 +1,3 @@
-# IzmaIs.github.io
+# IzmaIs
 <br>This project for interview</br>
-Проект для собеседования
+Баловался с рекламой
